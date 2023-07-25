@@ -1,0 +1,62 @@
+body {
+  background-color: cornsilk;
+  height: 100vh;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.grid {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: darkgray;
+}
+
+.grid div {
+  width: 50px;
+  height: 50px;
+}
+
+.snake {
+  background-color: steelblue;
+}
+
+.apple {
+  background-color: maroon;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 35px;
+}
+
+.score {
+  margin: 10px;
+  font-weight: 700;
+  color: steelblue;
+}
+
+button.start {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin-right: 150px;
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+  border-style: hidden;
+}
